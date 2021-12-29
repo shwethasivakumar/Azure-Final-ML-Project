@@ -14,4 +14,4 @@ In this project,by using the Gene Expression data of patients suffering from bre
 
 ## Azure Technology Used :
 
-An Azure VM (compute) is created in the Azure ML workspace and Azure Machine Learning (Notebook) is used for the analysis,training and deployment of the model.Azure Blob Storage is also used for storing necessary files.
+An Azure VM (compute) is created in the Azure ML workspace and Azure Machine Learning (Notebook) is used for the analysis,training and deployment of the model.Azure Blob Storage is also used for storing necessary files.The model is deployed using local docker container and the output is obtained by giving (test values or custom )input and running the approriate cells in the jupyter notebook  
